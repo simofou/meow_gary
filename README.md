@@ -10,7 +10,7 @@ this experiment searches to answer these questions by transforming our very own 
 
 <b>The shmoney:</b>
 - how do we donate money? the website. it will include a link to my venmo, paypal or directly to the charity of choice.
-- how does gary get money? the website. he will have the URL (meowgary.com) on his collar, and passer-by's will who look closely enough will visit our website, hence donating. 
+- how does gary get money? the website. he will have the URL (meowgary.com) on his collar, and passer-by's who look closely enough will visit our website, hence donating. 
 - how much money? cents. 
 
 <b>The how</b>
