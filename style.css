@@ -1,0 +1,32 @@
+/*adding some style*/
+
+.content {
+  max-width: 640px;
+  margin: auto;
+  padding: 10px;
+}
+
+body {
+  background-color: lightpink;
+}
+
+h1 {
+  color: black;
+  font-family: courier;
+  font-size: 300%;
+  text-align: center;
+}
+
+p {
+  color: black;
+  font-family: courier;
+  font-size: 100%;
+}
+
+div {
+  border-color: black;
+  border-style: solid;
+  border-width: thin;
+  padding: 10px;
+}
+
