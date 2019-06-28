@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
 
-  <title>Meow Gary!</title>
+  <title>Meow! Gary</title>
   <meta name="description" content="Gary">
   <meta name="author" content="Simon F">
 
@@ -15,9 +15,26 @@
 <body>
   <script src="js/scripts.js"></script>
 
-  <h1>MEOW GARY!</h1>
+  <h1>MEOW! GARY</h1>
 
-  <p>based off of quite possibly the most inspirational quote of our lifetime:</p>
+  <!-- add image of gary with funny text bubble: -->
+  <img src="">
+
+  <p>Hi, I'm Gary the cat, and my mission is simple: I am collecting donations for a local shelter to help other less fortunate kitties and pups.</p>
+  <p>If everyone stumbling on this site donates 1 penny we will drastically improve the lives of kittens and pups in Portland.</p>
+  <p>100% of donations go to the Pixie Project, a Portland familly-owned rescue animal shelter.</p>   
+  <p>Donate your pennies below (redirects to PayPal):</p>
+
+<!-- paypall button for donation with any amount -->
+<!-- ideally I'd like to have this set to 1-10cents but paypal wants 1$ min so I have it set to user decides -->
+  <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+  <input type="hidden" name="cmd" value="_s-xclick" />
+  <input type="hidden" name="hosted_button_id" value="S9WJ8MS5LVRBY" />
+  <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+  <img alt="" border="0" src="https://www.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+  </form>
+
+  <p>this project is based off of quite possibly the most inspirational quote of our lifetime:</p>
   <p>"meow!" -gary</p> 
 
 </body>
