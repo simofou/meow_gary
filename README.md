@@ -1,5 +1,5 @@
 # MEOW!GARY
-<b>gary's web project: a social influence experiment with charitable repercussions</b>
+<b>Gary's web project: a social influence experiment with charitable repercussions</b>
 
 <b>The goal:</b>
 create a HTML/CSS/Js website for gary that includes a direct option for donating money to a local shelter.
