@@ -1,0 +1,15 @@
+/*adding some style*/
+
+body {
+  background-color: lightpink;
+}
+h1 {
+  color: black;
+  font-family: courier;
+  font-size: 300%;
+}
+p {
+  color: black;
+  font-family: courier;
+  font-size: 100%;
+}
