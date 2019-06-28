@@ -13,7 +13,7 @@ this experiment searches to answer these questions by transforming our very own 
 - how does gary get money? the website. he will have the URL (meowgary.com) on his collar, and passer-by's who look closely enough will visit our website, and donate!? 
 - how much money? pennies. 
 
-<b>The how</b>
+<b>The how:</b>
 1. buy meowgary.com on namecheap.com (it's currently available)
 2. host the website somewhere
 3. create gmail account gary@meowgary.com > redirects to meowgarythecat@gmail.com 
