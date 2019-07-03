@@ -28,6 +28,12 @@ div {
   border-style: solid;
   border-width: thin;
   padding: 10px;
+  border-radius: 5px;
+}
+
+.donate {
+  text-align: center;
+  font-weight: 900;
 }
 
 img {
