@@ -23,7 +23,7 @@ p {
   font-size: 100%;
 }
 
-div {
+.content {
   border-color: black;
   border-style: solid;
   border-width: thin;
@@ -32,6 +32,11 @@ div {
 }
 
 .donate {
+  border-color: black;
+  border-style: solid;
+  border-width: thin;
+  padding: 10px;
+  border-radius: 5px;
   text-align: center;
   font-weight: 900;
 }
@@ -40,5 +45,15 @@ img {
   max-width: 100%;
   height: auto;
   opacity: 0.85;
+  border-radius: 5px;
+}
+
+.quote {
+  text-align: center;
+  font-weight: 900;
+}
+
+.social_media {
+  text-align: center;
 }
 
