@@ -1,6 +1,6 @@
 //Js function to randomize gary's homepage image.
 
-var gary_couch_image_array = ["xXcVqcSl.jpg", "lSQFZnlh.jpg"];
+var gary_couch_image_array = ["xXcVqcSl.jpg", "lSQFZnlh.jpg", "kE2zE2xh.jpg"];
 
 function getRandomImage(image_array) {
 
