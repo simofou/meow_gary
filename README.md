@@ -1,6 +1,6 @@
 # MEOW!GARY
 
-meowgary.com
+[meowgary.com](https://meowgary.com)
 
 <b>Gary's web project: a social influence experiment with charitable repercussions</b>
 
