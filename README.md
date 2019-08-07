@@ -12,15 +12,20 @@ in this day in age, social influencers are all over the websphere. are they real
 this experiment searches to answer these questions by transforming our very own and truly loved "gary" into a world class international super star influencer. and instead of keeping all the money for himself (he's a cat) gary will be donating every penny to a local shelter. 
 
 <b>The shmoney:</b>
-- how do we donate money? the website. it will include a link to his venmo, paypal, stripe, and apple pay accounts.
+- how do we donate money? the website. it will include a link to his paypal account (could add other payment options).
 - how does gary get money? the website. he will have the URL (meowgary.com) on his collar, and passer-by's who look closely enough will visit our website, and donate!? 
 - how much money? pennies. 
 
 <b>The how:</b>
-1. buy meowgary.com on namecheap.com (it's currently available)
-2. host the website somewhere
-3. create gmail account gary@meowgary.com > redirects to meowgarythecat@gmail.com 
+1. buy meowgary.com on namecheap.com
+2. host the website
+3. create gmail account meowgarythecat@gmail.com 
 4. create paypal business account to link with website
 5. build website
 6. donate money to charity
 7. feel good about yourself
+
+<b>The marketing<b>
+1. fundraiser 
+2. raffle (find gary, take pic, donate - be entered to win ___)
+3. this part is hard... help?
