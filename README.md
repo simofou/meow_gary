@@ -1,6 +1,6 @@
 # MEOW!GARY
 
-[meowgary.com](https://meowgary.com)
+<b>[meowgary.com](https://meowgary.com)</b>
 
 <b>Gary's web project: a social influence experiment with charitable repercussions</b>
 
@@ -25,7 +25,7 @@ this experiment searches to answer these questions by transforming our very own 
 6. donate money to charity
 7. feel good about yourself
 
-<b>The marketing<b>
-1. fundraiser 
-2. raffle (find gary, take pic, donate - be entered to win ___)
+<b>The marketing:</b>
+1. fundraiser w/ shelter 
+2. raffle w/ shelter (find gary, take pic, donate - be entered to win ___)
 3. this part is hard... help?
