@@ -3,6 +3,9 @@
 button_login_1 = "//a[contains(text(),'Log in')]"
 button_login_2 = "//div[contains(text(),'Log In')]"
 button_not_now = "//button[@class='aOOlW   HoLwm ']"
+button_like_first_post = "//article[1]//div[2]//section[1]//span[1]//button[1]"
+button_like_n_post_start ="//article["
+button_like_n_post_end = "]//div[2]//section[1]//span[1]//button[1]"
 
 # step definitions
 Given("I have gary credentials") do
@@ -16,7 +19,7 @@ When("I login with gary credentials") do
   visit('https://www.instagram.com/')
   sleep 2
   # click on "log in" selector 
-  find(button_login_1.click
+  find(button_login_1).click
   sleep 2
 
   # enter credentials and click "log in" button
@@ -31,6 +34,18 @@ When("I login with gary credentials") do
     find(button_not_now).click
   rescue Capybara::ElementNotFound
   end
-  sleep 5
+  sleep 2
+end
 
+Then("I like {string} post on feed") do |number_of_posts|
+  range = (1..number_of_posts.to_i)
+
+  # like number_of_posts posts
+  range.each do |post_index|
+    like_button = button_like_n_post_start + post_index.to_s + button_like_n_post_end
+    find(like_button).click
+    sleep 0.5
+  end
+  # instead of setting a range, we could like until we hit 2 posts that where already
+  # liked, and that would show we've caught up
 end
