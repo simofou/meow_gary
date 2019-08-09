@@ -17,10 +17,10 @@ end
 When("I login with gary credentials") do
   # visit homepage
   visit('https://www.instagram.com/')
-  sleep 2
+  sleep 1
   # click on "log in" selector 
   find(button_login_1).click
-  sleep 2
+  sleep 1
 
   # enter credentials and click "log in" button
   fill_in("Phone number, username, or email", with: @username)
@@ -34,7 +34,7 @@ When("I login with gary credentials") do
     find(button_not_now).click
   rescue Capybara::ElementNotFound
   end
-  sleep 2
+  sleep 1
 end
 
 Then("I like {string} post on feed") do |number_of_posts|
@@ -43,8 +43,12 @@ Then("I like {string} post on feed") do |number_of_posts|
   # like number_of_posts posts
   range.each do |post_index|
     like_button = button_like_n_post_start + post_index.to_s + button_like_n_post_end
-    find(like_button).click
-    sleep 0.5
+    begin
+      find(like_button).click
+    rescue Capybara::ElementNotFound
+      return "Already liked this post, done for now!"
+    end
+    sleep 1
   end
   # instead of setting a range, we could like until we hit 2 posts that where already
   # liked, and that would show we've caught up
