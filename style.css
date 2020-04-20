@@ -90,10 +90,9 @@ img {
   margin: 0 auto 20px auto;
   padding: 10px;
   position: relative;
-
-  background-color: #64B5F6;
-  border-color: #2196F3;
-  color: #fff;
+  background-color: orange;
+  border-color: blue;
+  color: black;
  }
 
 .dismissible button {
@@ -111,9 +110,9 @@ img {
   position: absolute;
   top: 50%;
   width: 24px;
-
-  background-color: #2196F3;
-  color: #E3F2FD;
+  background-color: blue;
+  color: white;
+  opacity: 0.65;
 }
 
 .dismissible button:focus {
