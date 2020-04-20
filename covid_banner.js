@@ -1,13 +1,13 @@
 //Js function to add dynamic COVID banner
 
-var dismissibleItem = function(el, value) {
+var dismissibleBanner = function(el, value) {
 
   var html = '<span>' + value + ' <button type="button" class="close">X</button></span>';
 
   el.removeAttribute('data-component');
   el.removeAttribute('data-value');
 
-  el.classList.add('dismissible');
+  el.classList.add('dismissible-banner');
 
   el.innerHTML = html;
 
@@ -37,7 +37,7 @@ var dismissibleItem = function(el, value) {
 
 };
 
-var dismissible = document.querySelector('[data-component="dismissible-item"]')
-    value = dismissible.getAttribute('data-value');
+var dismissible_banner = document.querySelector('[data-component="dismissible-banner"]')
+    value = dismissible_banner.getAttribute('data-value');
 
-new dismissibleItem(dismissible, value)
+new dismissibleBanner(dismissible_banner, value)
