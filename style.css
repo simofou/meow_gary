@@ -91,6 +91,9 @@ img {
   padding: 10px;
   position: relative;
 
+  background-color: #64B5F6;
+  border-color: #2196F3;
+  color: #fff;
  }
 
 .dismissible button {
@@ -108,20 +111,13 @@ img {
   position: absolute;
   top: 50%;
   width: 24px;
+
+  background-color: #2196F3;
+  color: #E3F2FD;
 }
 
 .dismissible button:focus {
   outline: none;
 }
 
-/*.dismissible-info span {
-  background-color: #64B5F6;
-  border-color: #2196F3;
-  color: #fff;
-}
-
-.dismissible-info button {
-  background-color: #2196F3;
-  color: #E3F2FD;
-}*/
 
