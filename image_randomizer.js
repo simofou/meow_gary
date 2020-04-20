@@ -1,7 +1,5 @@
 //Js function to randomize gary's homepage image.
 
-var gary_couch_image_array = ["xXcVqcSl.jpg", "lSQFZnlh.jpg", "kE2zE2xh.jpg"];
-
 function getRandomImage(image_array) {
 
     var path = path || 'https://i.imgur.com/'; // default path here
@@ -11,5 +9,7 @@ function getRandomImage(image_array) {
     document.write(image_tag); 
     document.close();
 }
+
+var gary_couch_image_array = ["xXcVqcSl.jpg", "lSQFZnlh.jpg", "kE2zE2xh.jpg"];
 
 getRandomImage(gary_couch_image_array);

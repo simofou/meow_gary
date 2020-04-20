@@ -70,3 +70,53 @@ img {
   opacity: 0.5;
 }
 
+/*covid banner*/
+
+.dismissible-banner {
+  color: #33;
+  font-size: 16px;
+  line-height: 22px;
+  position: relative;
+  overflow: hidden;
+}
+
+ .dismissible-banner span {
+  background: #fff;
+  border: 2px solid rgba(0, 0, 0, .3);
+  border-radius: 5px;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, .2);
+  box-sizing: border-box;
+  display: block;
+  margin: 0 auto 20px auto;
+  padding: 10px;
+  position: relative;
+  background-color: orange;
+  border-color: blue;
+  color: black;
+ }
+
+.dismissible-banner button {
+  background: rgba(0, 0, 0, .4);
+  border: 0;
+  border-radius: 100%;
+  color: #fff;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+  height: 24px;
+  line-height: 20px;
+  margin-top: -12px;
+  right: 10px;
+  position: absolute;
+  top: 50%;
+  width: 24px;
+  background-color: blue;
+  color: white;
+  opacity: 0.65;
+}
+
+.dismissible-banner button:focus {
+  outline: none;
+}
+
+
